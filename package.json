@@ -2,6 +2,7 @@
   "jspm": {
     "directories": {},
     "dependencies": {
+      "live-server": "npm:live-server@^0.8.1",
       "react": "npm:react@^0.13.3",
       "react-dom": "npm:react-dom@^0.14.0-beta3"
     },
@@ -15,9 +16,7 @@
   "version": "1.0.0",
   "description": "small \"library\" for implementing a Konami Code easter egg on your site",
   "main": "src/konami.js",
-  "dependencies": {
-    "live-server": "0.8.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "jspm": "^0.16.0"
   },
