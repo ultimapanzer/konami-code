@@ -14,7 +14,6 @@ class Konami {
   listener = (event) => {
     let key = event.which || event.keyCode;
     this.curIndex = key === this.getCodeAt(this.curIndex) ? this.curIndex + 1 : 0;
-    console.log("key:", event.which, "curIndex:", this.curIndex);
 
     if (this.curIndex === code.length) {
       this.callbackFn();
@@ -22,7 +21,6 @@ class Konami {
     clearTimeout(this.timeoutId);
     this.timeoutId = setTimeout(() => {
       this.curIndex = 0;
-      console.log("timed out");
     }, 1000);
   }
   listen(elem) {
