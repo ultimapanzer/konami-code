@@ -14,7 +14,7 @@ class App extends React.Component {
   }
   theTruth = () => {
     console.log("coincidence?");
-    this.setState({secret: <img src="http://i.imgur.com/HSfdfmu.png" style={styles.secret}/>,
+    this.setState({secret: <img src="truth.png" style={styles.secret}/>,
                    revealed: true});
   }
   render() {
