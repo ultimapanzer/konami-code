@@ -1,5 +1,5 @@
 # konami-code
-small "library" for implementing a Konami Code easter egg on your site
+small "library" for implementing a Konami Code easter egg on your site. "Enter" takes the place of "Start" in the original code.
 
 To run the demo, first clone the repo, then serve up the `demo/` dir and open your browser.
 
