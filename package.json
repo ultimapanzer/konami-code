@@ -11,5 +11,26 @@
       "babel-runtime": "npm:babel-runtime@^5.8.20",
       "core-js": "npm:core-js@^1.1.0"
     }
-  }
+  },
+  "name": "konami-code",
+  "version": "1.0.0",
+  "description": "small \"library\" for implementing a Konami Code easter egg on your site",
+  "main": "src/konami.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jspm": "^0.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ultimapanzer/konami-code.git"
+  },
+  "author": "Brad Kurtz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ultimapanzer/konami-code/issues"
+  },
+  "homepage": "https://github.com/ultimapanzer/konami-code#readme"
 }
