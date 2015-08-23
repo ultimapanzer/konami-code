@@ -16,7 +16,7 @@
   "description": "small \"library\" for implementing a Konami Code easter egg on your site",
   "main": "src/konami.js",
   "dependencies": {
-    "live-server": "npm:live-server@^0.8.1"
+    "live-server": "0.8.1"
   },
   "devDependencies": {
     "jspm": "^0.16.0"
