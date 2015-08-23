@@ -6,4 +6,4 @@ To run the demo, first clone the repo, then serve up the `demo/` dir and open yo
 You can use any simple http server utility, such as `python -m SimpleHTTPServer` or `http-server` from npm (`npm install -g http-server`).
 
 ## TODO
-publish on npm
+publish on npm \*kappa\*
